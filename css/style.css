@@ -551,7 +551,23 @@ h2 {
   outline: none;
   cursor: pointer;
 }
+.custom-information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0px auto;
+  padding: 40px 39px 40px 41px;
+}
+.custom-input {
+  width: 100%;
+  height: 40px;
+  margin-top: 28px;
+  padding-left: 10px;
 
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
 .close {
   height: 11px;
   width: 11px;
