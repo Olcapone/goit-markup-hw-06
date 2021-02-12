@@ -406,23 +406,44 @@
                     </svg>
                 </button>
 
-                <form action="" class="custom-information">
-                    Оставьте свои данные, мы вам перезвоним
-                    <!-- <ul class="list">
-                        <li ><label></label></li>
-                        <li ><label></label></li>
-                        <li ><label> </label></li>
-                    </ul> -->
-                    <input type="name" class="custom-input" placeholder="Your name">
-                    <input type="tel" class="custom-input" placeholder="Your telephone">
-                                   <input type="email" class="custom-input" placeholder="Your email">
-                    <input type="text" class="custom-input">
-                    <input type="text" class="custom-input">
-                 <!-- <label>  </label>
-                    <label> </label> -->
+                <form action="#" class="custom-information">
+                   <h3> Оставьте свои данные, мы вам перезвоним</h3>
 
-                    Соглашаюсь с рассылкой и принимаю Условия договора
-                    <button type="submit"> Отправить </button>
+                            <label class="user-info"> Имя
+                                <span class="user-info-input">
+                                <input name="name" type="text" class="custom-input"  required minlength="3">
+                        <svg class="icon-form" width="12" height="12">
+                            <use href="./images/symbol-defs.svg#icon-person-black" ></use>
+                        </svg> 
+                    </span>
+                    </label>
+                  
+                        <label class="user-info">Телефон
+                            <span class="user-info-input">
+                            <input name="tel" type="tel" class="custom-input"  required>
+                        <svg class="icon-form" width="13" height="13">
+                            <use href="./images/symbol-defs.svg#icon-phone-black" ></use>
+                        </svg>
+                        </span>
+                        </label>
+
+                    <label class="user-info">Почта
+                        <span class="user-info-input">
+                        <input name="user-email" type="email" class="custom-input"  required>
+                        <svg class="icon-form" width="15" height="12">
+                            <use href="./images/symbol-defs.svg#icon-email" ></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="user-info">
+                Комментарий
+                    <textarea name="comment" class=" custom-input text-aria" placeholder="Введите текст"> </textarea> 
+                            </label>              
+               
+                    <label for="user-agree" class="user-agree">  Соглашаюсь с рассылкой и принимаю Условия договора</label> 
+                    <input id="user-agree" name="user-agree" type="checkbox" value="agree" checked>
+
+                    <button class="main-button" type="submit"> Отправить </button>
                 </form>
         
             </div>
