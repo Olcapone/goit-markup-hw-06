@@ -649,11 +649,13 @@ h2 {
   background-color: var(--hover-text-color);
   outline: none;
   border: none;
+  background-image: url("./images/icon-check.svg");
 }
 .user-agree-check:focus + .user-agree::before {
   background-color: var(--hover-text-color);
   outline: none;
   border: none;
+  background-image: url("./images/icon-check.svg");
   fill: var(--accent-text-color);
 }
 
@@ -665,7 +667,6 @@ h2 {
   outline: none;
   border: 1px solid var(--dark-icon);
   border-radius: 2px;
-  background-image: url("./images/icon-check.svg");
 }
 
 /* .icon-check {
