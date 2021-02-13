@@ -559,6 +559,7 @@ h2 {
   height: 11px;
   width: 11px;
 }
+/* Customer form */
 
 .custom-information {
   display: flex;
@@ -566,11 +567,16 @@ h2 {
   justify-content: center;
   width: 100%;
   margin: 0px auto;
+
+  font-size: 12px;
+  line-height: 1.17;
+  color: var(--primary-text-color);
 }
-.custom-information h3 {
+.custom-information p {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.15;
+  color: var(--dark-icon);
 }
 .custom-information button {
   width: 200px;
@@ -580,11 +586,8 @@ h2 {
 
 .user-info {
   margin-top: 12px;
-
-  font-size: 12px;
-  line-height: 1.17;
-  color: var(--primary-text-color);
 }
+
 .user-info-input {
   position: relative;
   display: block;
@@ -625,8 +628,50 @@ h2 {
 
   width: 448px;
   height: 120px;
+  line-height: 1.17;
 }
+.user-massage::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+
 .user-agree {
-  display: block;
+  display: flex;
+  align-items: center;
+  position: relative;
   margin-top: 20px;
+
+  padding-left: 13.5px;
 }
+.user-agree a {
+  color: var(--hover-text-color);
+}
+.user-agree-check:checked + .user-agree::before {
+  background-color: var(--hover-text-color);
+  outline: none;
+  border: none;
+}
+.user-agree-check:focus + .user-agree::before {
+  background-color: var(--hover-text-color);
+  outline: none;
+  border: none;
+  fill: var(--accent-text-color);
+}
+
+.user-agree::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  outline: none;
+  border: 1px solid var(--dark-icon);
+  border-radius: 2px;
+  background-image: url("./images/icon-check.svg");
+}
+
+/* .icon-check {
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  transform: translateY(-50%);
+  fill: var(--accent-text-color);
+} */

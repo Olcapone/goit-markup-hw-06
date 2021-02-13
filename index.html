@@ -407,7 +407,7 @@
                 </button>
 
                 <form action="#" class="custom-information">
-                   <h3> Оставьте свои данные, мы вам перезвоним</h3>
+                   <p> Оставьте свои данные, мы вам перезвоним</p>
 
                             <label class="user-info"> Имя
                                 <span class="user-info-input">
@@ -438,10 +438,15 @@
                 <label class="user-info">
                 Комментарий
                     <textarea name="comment" class="custom-input user-massage" placeholder="Введите сообщение"></textarea> 
-                            </label>              
-               
-                    <label for="user-agree" class="user-agree">  Соглашаюсь с рассылкой и принимаю Условия договора</label> 
-                    <input id="user-agree" name="user-agree" type="checkbox" value="agree">
+                            </label>        
+
+               <input id="user-agree" name="user-agree" class="user-agree-check visually-hidden" type="checkbox" value="agree">
+                    <label for="user-agree" class="user-agree"> Соглашаюсь с рассылкой и принимаю  <a href="#">Условия договора</a>
+                    <!-- <svg class="icon-check" width="11" height="8">
+                        <use href="./images/icon-check.svg"></use>
+                    </svg> -->
+                </label> 
+                    
 
                     <button class="main-button" type="submit"> Отправить </button>
                 </form>
