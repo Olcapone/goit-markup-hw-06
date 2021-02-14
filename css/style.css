@@ -600,8 +600,8 @@ h2 {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
 .close {
-  height: 11px;
-  width: 11px;
+  height: 18px;
+  width: 18px;
 }
 .modal-close-btn:focus > svg,
 .modal-close-btn:hover > svg {
@@ -655,6 +655,9 @@ h2 {
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
+
+  width: 18px;
+  height: 18px;
   fill: var(--dark-icon);
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
