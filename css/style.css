@@ -705,7 +705,7 @@ h2 {
 .user-agree-check:focus + .user-agree::before {
   background: var(--hover-text-color);
   background-image: url("../images/vector.svg");
-  background-size: contain;
+  background-size: 11px 8px;
   background-repeat: no-repeat;
   background-position: center;
   background-origin: border-box;
@@ -722,6 +722,7 @@ h2 {
   top: 50%;
   left: 3px;
   transform: translateY(-50%);
+  margin-right: 7px;
 
   width: 16px;
   height: 15px;
