@@ -440,8 +440,8 @@ h2 {
   background: var(--footer-bgc);
 }
 .footer-block {
-  height: 215px;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer .container {
   display: flex;
