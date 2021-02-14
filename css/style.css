@@ -692,7 +692,7 @@ h2 {
 }
 .user-agree-check:checked + .user-agree::before {
   background: var(--hover-text-color);
-  background-image: url("./images/vector.svg");
+  background-image: url("../images/vector.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -703,7 +703,7 @@ h2 {
 }
 .user-agree-check:focus + .user-agree::before {
   background: var(--hover-text-color);
-  background-image: url("./images/vector.svg");
+  background-image: url("../images/vector.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
