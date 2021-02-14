@@ -547,6 +547,7 @@ h2 {
 }
 .icon-send {
   margin-left: 10px;
+  fill: var(--accent-text-color);
 }
 
 /* modal window */
